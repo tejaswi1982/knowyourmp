@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+  "sourceIdentifier": "3042793",
+  "method": "POST",
+  "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+  "retrievedAt": "2026-09-19T19:02:26.545Z",
+  "parserVersion": "mplads-1.0.0",
+  "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+  "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.7a255191-6b0f-4fb5-abe1-2976c93718f6.raw",
+  "status": 200,
+  "contentType": "text/plain;charset=ISO-8859-1"
+}

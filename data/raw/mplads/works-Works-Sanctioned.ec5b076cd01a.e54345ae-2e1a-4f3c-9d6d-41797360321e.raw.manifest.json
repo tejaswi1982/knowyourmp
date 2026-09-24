@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+  "sourceIdentifier": "3042793",
+  "method": "POST",
+  "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+  "retrievedAt": "2026-09-19T19:02:26.447Z",
+  "parserVersion": "mplads-1.0.0",
+  "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+  "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.e54345ae-2e1a-4f3c-9d6d-41797360321e.raw",
+  "status": 200,
+  "contentType": "text/plain;charset=ISO-8859-1"
+}

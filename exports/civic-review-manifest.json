@@ -1,0 +1,144 @@
+{
+  "exportedAt": "2026-09-24T06:49:21.851Z",
+  "file": "C:\\Users\\tejas\\Documents\\New project 2\\KnowYourMP\\exports\\KnowYourMP-civic-loop-review.html",
+  "offlineVerified": true,
+  "widths": [
+    375,
+    430
+  ],
+  "stateCount": 22,
+  "states": [
+    {
+      "id": "home",
+      "label": "Homepage",
+      "description": "Enter 400053 to open the existing Mumbai North-West pilot.",
+      "route": "/"
+    },
+    {
+      "id": "story",
+      "label": "MP Story",
+      "description": "Ravindra Dattaram Waikar, Mumbai North-West. Existing story preserved.",
+      "route": "/mp/mumbai-north-west"
+    },
+    {
+      "id": "money",
+      "label": "Public money CTA",
+      "description": "67 public works and Explore public works are visible without opening the financial disclosure.",
+      "route": "/mp/mumbai-north-west"
+    },
+    {
+      "id": "works",
+      "label": "Works",
+      "description": "All 67 real projects, literal locality/work search, source statuses and official categories.",
+      "route": "/works"
+    },
+    {
+      "id": "work",
+      "label": "Demo Work",
+      "description": "Work 244718. Both official report statuses remain visible. No citizen evidence has been published yet in this export fixture.",
+      "route": "/works/244718"
+    },
+    {
+      "id": "source",
+      "label": "Official source",
+      "description": "Actual official source disclosure: report titles, retrieval date, period and dashboard-selection instructions.",
+      "route": "/works/244718"
+    },
+    {
+      "id": "project",
+      "label": "Verify · 1 Project",
+      "description": "All five stage labels remain visible. Project, location description, amount and conflicting official statuses are connected to the work.",
+      "route": "/works/244718/verify"
+    },
+    {
+      "id": "observation",
+      "label": "Verify · 2 Observation",
+      "description": "Nine existing neutral observation choices. No political opinion or accusation is required.",
+      "route": "/works/244718/verify"
+    },
+    {
+      "id": "photo-empty",
+      "label": "Verify · 3 Photo upload",
+      "description": "Visible device-upload and mobile-camera controls, limits and relevant privacy guidance.",
+      "route": "/works/244718/verify"
+    },
+    {
+      "id": "photo",
+      "label": "Verify · 3 Photo attached",
+      "description": "The attached image is explicitly a review fixture, not evidence about the real project.",
+      "route": "/works/244718/verify"
+    },
+    {
+      "id": "note",
+      "label": "Verify · 4 Note",
+      "description": "Factual guidance, optional note and observation date.",
+      "route": "/works/244718/verify"
+    },
+    {
+      "id": "review",
+      "label": "Verify · 5 Review",
+      "description": "The actual connected project, chosen observation, attached photo, note, date and required acknowledgement.",
+      "route": "/works/244718/verify"
+    },
+    {
+      "id": "confirmation",
+      "label": "Submission confirmation",
+      "description": "Not public yet; approval required; official data unchanged. Return to project is explicit.",
+      "route": "/works/244718/verify"
+    },
+    {
+      "id": "pending-public",
+      "label": "Public record while pending",
+      "description": "Pending evidence is absent from Citizen checks.",
+      "route": "/works/244718"
+    },
+    {
+      "id": "admin",
+      "label": "Admin · pending",
+      "description": "Authenticated local moderator view. The token and session cookie are never exported.",
+      "route": "/admin/contributions"
+    },
+    {
+      "id": "needs-review",
+      "label": "Admin · needs review",
+      "description": "Needs review was exercised; evidence stays private.",
+      "route": "/admin/contributions"
+    },
+    {
+      "id": "rejected",
+      "label": "Admin · rejected",
+      "description": "Reject was exercised on this disposable review fixture; it remains hidden publicly.",
+      "route": "/admin/contributions"
+    },
+    {
+      "id": "published-admin",
+      "label": "Admin · published",
+      "description": "Publish changes visibility, not the official record or the independent verification state.",
+      "route": "/admin/contributions"
+    },
+    {
+      "id": "published",
+      "label": "Work after publication",
+      "description": "The approved test observation now appears in Citizen checks, distinctly below Official record.",
+      "route": "/works/244718"
+    },
+    {
+      "id": "citizen",
+      "label": "Citizen checks",
+      "description": "Citizen label, observation/date, privacy-safe proximity and test photograph. No official values are changed.",
+      "route": "/works/244718"
+    },
+    {
+      "id": "documents",
+      "label": "Supporting documents",
+      "description": "Separate supporting-source display, using an explicitly labelled export fixture. It does not fill the official completion date. No authority response is fabricated.",
+      "route": "/works/244718"
+    },
+    {
+      "id": "methodology",
+      "label": "Methodology",
+      "description": "Existing methodology remains available; official external sources require internet.",
+      "route": "/methodology"
+    }
+  ]
+}

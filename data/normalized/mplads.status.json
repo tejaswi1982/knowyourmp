@@ -1,0 +1,29 @@
+{
+  "status": "partial",
+  "attemptedAt": "2026-09-19T19:07:55.892Z",
+  "lastSuccessAt": "2026-09-19T19:07:55.892Z",
+  "message": "Official dashboard reports ingested; missing fields and conflicting work stages are disclosed.",
+  "warnings": [
+    "mplads:145119: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:146670: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:244673: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:244685: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:244688: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:244696: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:244706: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:244707: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:244712: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:244714: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:244715: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:244716: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:244718: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:262893: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:262894: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:262898: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:262899: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:262900: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:262901: The two official reports disagree on the work stage. Both labels are retained.",
+    "mplads:262902: The two official reports disagree on the work stage. Both labels are retained.",
+    "The report does not supply a reporting cut-off, release amount, balance or utilization percentage."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "sourceUrl": "https://sansad.in/api_ls/committee/findCommitteeMembership?mpsno=5701&lsno=18",
+  "sourceIdentifier": "5701",
+  "method": "GET",
+  "retrievedAt": "2026-09-19T19:02:02.083Z",
+  "parserVersion": "sansad-1.0.0",
+  "contentHash": "2b4d517ae9f1c2c6e9db3639c691631c1cf02fe7cfa0b1b1243796a6a0e2e609",
+  "storedAt": "data\\raw\\sansad\\committees-5701-1.2b4d517ae9f1.893045c1-de58-4e6c-8eb7-a4f0ce3de3f8.raw",
+  "status": 200,
+  "contentType": "application/json"
+}

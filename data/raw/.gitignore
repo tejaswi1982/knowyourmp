@@ -1,0 +1,5 @@
+# Raw government snapshots are development-only and can be large.
+# Production stores these in object storage; see lib/ingestion/core.ts.
+*.tmp
+!.gitignore
+!README.md

@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getMpAndConstCombo",
+  "sourceIdentifier": "3042793",
+  "method": "POST",
+  "requestBody": "{\"const_combo\":\"270,2,7\"}",
+  "retrievedAt": "2026-09-19T19:03:24.419Z",
+  "parserVersion": "mplads-1.0.0",
+  "contentHash": "c5a96114885a2d81f0d30131a050fd80c0f000810c7e20571834966eb3283121",
+  "storedAt": "data\\raw\\mplads\\identity-getMpAndConstCombo.c5a96114885a.bb235e3e-014a-47da-9497-f04f99417cb3.raw",
+  "status": 200,
+  "contentType": "text/plain;charset=ISO-8859-1"
+}

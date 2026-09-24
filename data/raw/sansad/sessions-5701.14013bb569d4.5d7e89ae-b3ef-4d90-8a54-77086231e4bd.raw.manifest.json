@@ -1,0 +1,11 @@
+{
+  "sourceUrl": "https://sansad.in/api_ls/member/members-loksabha-session?mpCode=5701",
+  "sourceIdentifier": "5701",
+  "method": "GET",
+  "retrievedAt": "2026-09-19T19:06:34.631Z",
+  "parserVersion": "sansad-1.0.0",
+  "contentHash": "14013bb569d441e193893e6318579fe061aab72a5af59aca9a8c04377bd8a1af",
+  "storedAt": "data\\raw\\sansad\\sessions-5701.14013bb569d4.5d7e89ae-b3ef-4d90-8a54-77086231e4bd.raw",
+  "status": 200,
+  "contentType": "application/json"
+}

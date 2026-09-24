@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesData",
+  "sourceIdentifier": "3042793",
+  "method": "POST",
+  "requestBody": "{\"uname\":\"21,270,3042793,2,7\"}",
+  "retrievedAt": "2026-09-19T19:07:56.397Z",
+  "parserVersion": "mplads-1.0.0",
+  "contentHash": "2ca4d1c99cbaf6ebd292f0b4db33af8fdf87a9f12d704a59a0972c1ffd7215f1",
+  "storedAt": "data\\raw\\mplads\\summary-summary.2ca4d1c99cba.113244fa-5ddf-43fd-8599-f148cf391670.raw",
+  "status": 200,
+  "contentType": "text/plain;charset=ISO-8859-1"
+}

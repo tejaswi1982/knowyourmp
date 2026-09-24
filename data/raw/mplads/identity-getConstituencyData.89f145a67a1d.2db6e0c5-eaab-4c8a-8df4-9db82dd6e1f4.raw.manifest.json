@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getConstituencyData",
+  "sourceIdentifier": "3042793",
+  "method": "POST",
+  "requestBody": "{\"id\":\"21\"}",
+  "retrievedAt": "2026-09-19T19:02:25.913Z",
+  "parserVersion": "mplads-1.0.0",
+  "contentHash": "89f145a67a1d2ebf466232d896d814c2c550cc5a9583f9689469353098efb9eb",
+  "storedAt": "data\\raw\\mplads\\identity-getConstituencyData.89f145a67a1d.2db6e0c5-eaab-4c8a-8df4-9db82dd6e1f4.raw",
+  "status": 200,
+  "contentType": "text/plain;charset=ISO-8859-1"
+}

@@ -1,0 +1,11 @@
+{
+  "sourceUrl": "https://sansad.in/api_ls/member/5701?locale=en",
+  "sourceIdentifier": "5701",
+  "method": "GET",
+  "retrievedAt": "2026-09-19T19:06:09.924Z",
+  "parserVersion": "sansad-1.0.0",
+  "contentHash": "1c061242d28b3053a5307906597c57466006414d12548f9029166f766138af72",
+  "storedAt": "data\\raw\\sansad\\memberProfile-5701-1.1c061242d28b.357222ce-95ed-499c-aa6d-c316629c28cd.raw",
+  "status": 200,
+  "contentType": "application/json"
+}

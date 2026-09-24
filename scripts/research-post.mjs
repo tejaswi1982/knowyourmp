@@ -1,0 +1,13 @@
+import { mkdir, writeFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+const [endpoint, key, value, key2, value2] = process.argv.slice(2);
+const url = `https://mplads.mospi.gov.in/rest/PreLoginDashboardData/${endpoint}`;
+const requestBody = JSON.stringify(key ? { [key]: value, ...(key2 ? { [key2]: value2 } : {}) } : {});
+const response = await fetch(url, { method: 'POST', headers: { 'content-type': 'application/json; charset=utf-8' }, body: requestBody, signal: AbortSignal.timeout(30000) });
+const bytes = Buffer.from(await response.arrayBuffer());
+const hash = createHash('sha256').update(bytes).digest('hex');
+await mkdir('data/research', { recursive: true });
+const file = `data/research/mplads-${endpoint}-${hash.slice(0,12)}`;
+await writeFile(file, bytes);
+await writeFile(`${file}.json`, JSON.stringify({ url, method: 'POST', requestBody, status: response.status, retrievedAt: new Date().toISOString(), hash }, null, 2));
+console.log(file, response.status, bytes.toString().slice(0, 15000));

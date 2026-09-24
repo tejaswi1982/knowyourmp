@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTenureData",
+  "sourceIdentifier": "3042793",
+  "method": "POST",
+  "requestBody": "{\"uname\":\"0,0,0,2\"}",
+  "retrievedAt": "2026-09-19T19:07:56.194Z",
+  "parserVersion": "mplads-1.0.0",
+  "contentHash": "791ef12e0d8cc384c7a3c5ddf454b5b30e2c4baada84de9ad8ea59f578290c29",
+  "storedAt": "data\\raw\\mplads\\identity-getTenureData.791ef12e0d8c.bc767f81-4254-4978-9d9a-d7f2598a7069.raw",
+  "status": 200,
+  "contentType": "text/plain;charset=ISO-8859-1"
+}

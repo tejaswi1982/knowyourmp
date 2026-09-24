@@ -1,0 +1,3568 @@
+{
+  "sha256": "de5d7d95ade9924269edcf015e829b0f7cd8173940a2a8d44174b20232c900c1",
+  "data": {
+    "version": 1,
+    "representativeId": "ls18-mh-mumbai-north-west",
+    "sourceIdentifier": "3042793",
+    "retrievedAt": "2026-09-19T19:07:55.892Z",
+    "state": {
+      "status": "partial",
+      "attemptedAt": "2026-09-19T19:07:55.892Z",
+      "lastSuccessAt": "2026-09-19T19:07:55.892Z",
+      "message": "Official dashboard reports ingested; missing fields and conflicting work stages are disclosed.",
+      "warnings": [
+        "mplads:145119: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:146670: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:244673: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:244685: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:244688: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:244696: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:244706: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:244707: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:244712: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:244714: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:244715: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:244716: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:244718: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:262893: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:262894: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:262898: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:262899: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:262900: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:262901: The two official reports disagree on the work stage. Both labels are retained.",
+        "mplads:262902: The two official reports disagree on the work stage. Both labels are retained.",
+        "The report does not supply a reporting cut-off, release amount, balance or utilization percentage."
+      ]
+    },
+    "sources": [
+      {
+        "id": "mplads-getStateData",
+        "title": "Member mapping: getStateData",
+        "url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "publisher": "Ministry of Statistics and Programme Implementation",
+        "code": "MPLADS",
+        "official": true,
+        "docRef": "Member mapping: getStateData",
+        "period": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "retrievedAt": "2026-09-19T19:07:56.139Z",
+        "parserVersion": "mplads-1.0.0",
+        "deepLinkStatus": "pending",
+        "note": "Select Maharashtra → Mumbai North West → Ravindra Dattaram Waikar → 18th Lok Sabha on the dashboard. Member 3042793; reporting cut-off is not supplied.",
+        "manifests": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getStateData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{}",
+            "retrievedAt": "2026-09-19T19:07:56.139Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "8f367819bb2cc9b7c6f057a63db809e14f8632b9572e02becd9054413f0cf9c8",
+            "storedAt": "data\\raw\\mplads\\identity-getStateData.8f367819bb2c.8bd58297-3a9d-4b43-9e36-cfae043a4037.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads-getTenureData",
+        "title": "Member mapping: getTenureData",
+        "url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "publisher": "Ministry of Statistics and Programme Implementation",
+        "code": "MPLADS",
+        "official": true,
+        "docRef": "Member mapping: getTenureData",
+        "period": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "retrievedAt": "2026-09-19T19:07:56.194Z",
+        "parserVersion": "mplads-1.0.0",
+        "deepLinkStatus": "pending",
+        "note": "Select Maharashtra → Mumbai North West → Ravindra Dattaram Waikar → 18th Lok Sabha on the dashboard. Member 3042793; reporting cut-off is not supplied.",
+        "manifests": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTenureData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"uname\":\"0,0,0,2\"}",
+            "retrievedAt": "2026-09-19T19:07:56.194Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "791ef12e0d8cc384c7a3c5ddf454b5b30e2c4baada84de9ad8ea59f578290c29",
+            "storedAt": "data\\raw\\mplads\\identity-getTenureData.791ef12e0d8c.bc767f81-4254-4978-9d9a-d7f2598a7069.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads-getConstituencyData",
+        "title": "Member mapping: getConstituencyData",
+        "url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "publisher": "Ministry of Statistics and Programme Implementation",
+        "code": "MPLADS",
+        "official": true,
+        "docRef": "Member mapping: getConstituencyData",
+        "period": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "retrievedAt": "2026-09-19T19:07:56.253Z",
+        "parserVersion": "mplads-1.0.0",
+        "deepLinkStatus": "pending",
+        "note": "Select Maharashtra → Mumbai North West → Ravindra Dattaram Waikar → 18th Lok Sabha on the dashboard. Member 3042793; reporting cut-off is not supplied.",
+        "manifests": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getConstituencyData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"id\":\"21\"}",
+            "retrievedAt": "2026-09-19T19:07:56.253Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "89f145a67a1d2ebf466232d896d814c2c550cc5a9583f9689469353098efb9eb",
+            "storedAt": "data\\raw\\mplads\\identity-getConstituencyData.89f145a67a1d.f60d61af-d8c6-40eb-bad0-0bd5f6cd2e3a.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads-getMpAndConstCombo",
+        "title": "Member mapping: getMpAndConstCombo",
+        "url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "publisher": "Ministry of Statistics and Programme Implementation",
+        "code": "MPLADS",
+        "official": true,
+        "docRef": "Member mapping: getMpAndConstCombo",
+        "period": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "retrievedAt": "2026-09-19T19:07:56.313Z",
+        "parserVersion": "mplads-1.0.0",
+        "deepLinkStatus": "pending",
+        "note": "Select Maharashtra → Mumbai North West → Ravindra Dattaram Waikar → 18th Lok Sabha on the dashboard. Member 3042793; reporting cut-off is not supplied.",
+        "manifests": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getMpAndConstCombo",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"const_combo\":\"270,2,7\"}",
+            "retrievedAt": "2026-09-19T19:07:56.313Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "c5a96114885a2d81f0d30131a050fd80c0f000810c7e20571834966eb3283121",
+            "storedAt": "data\\raw\\mplads\\identity-getMpAndConstCombo.c5a96114885a.c63378dd-5d79-4287-bb65-5f5e543cb7b1.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads-summary",
+        "title": "Financial summary",
+        "url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "publisher": "Ministry of Statistics and Programme Implementation",
+        "code": "MPLADS",
+        "official": true,
+        "docRef": "Financial summary",
+        "period": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "retrievedAt": "2026-09-19T19:07:56.397Z",
+        "parserVersion": "mplads-1.0.0",
+        "deepLinkStatus": "pending",
+        "note": "Select Maharashtra → Mumbai North West → Ravindra Dattaram Waikar → 18th Lok Sabha on the dashboard. Member 3042793; reporting cut-off is not supplied.",
+        "manifests": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"uname\":\"21,270,3042793,2,7\"}",
+            "retrievedAt": "2026-09-19T19:07:56.397Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "2ca4d1c99cbaf6ebd292f0b4db33af8fdf87a9f12d704a59a0972c1ffd7215f1",
+            "storedAt": "data\\raw\\mplads\\summary-summary.2ca4d1c99cba.113244fa-5ddf-43fd-8599-f148cf391670.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads-recommended",
+        "title": "Works recommended",
+        "url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "publisher": "Ministry of Statistics and Programme Implementation",
+        "code": "MPLADS",
+        "official": true,
+        "docRef": "Works recommended",
+        "period": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "retrievedAt": "2026-09-19T19:07:56.542Z",
+        "parserVersion": "mplads-1.0.0",
+        "deepLinkStatus": "pending",
+        "note": "Select Maharashtra → Mumbai North West → Ravindra Dattaram Waikar → 18th Lok Sabha on the dashboard. Member 3042793; reporting cut-off is not supplied.",
+        "manifests": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads-sanctioned",
+        "title": "Works sanctioned",
+        "url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "publisher": "Ministry of Statistics and Programme Implementation",
+        "code": "MPLADS",
+        "official": true,
+        "docRef": "Works sanctioned",
+        "period": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "retrievedAt": "2026-09-19T19:07:56.804Z",
+        "parserVersion": "mplads-1.0.0",
+        "deepLinkStatus": "pending",
+        "note": "Select Maharashtra → Mumbai North West → Ravindra Dattaram Waikar → 18th Lok Sabha on the dashboard. Member 3042793; reporting cut-off is not supplied.",
+        "manifests": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads-expenditure",
+        "title": "Reported expenditure transactions",
+        "url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "publisher": "Ministry of Statistics and Programme Implementation",
+        "code": "MPLADS",
+        "official": true,
+        "docRef": "Reported expenditure transactions",
+        "period": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "retrievedAt": "2026-09-19T19:07:56.873Z",
+        "parserVersion": "mplads-1.0.0",
+        "deepLinkStatus": "pending",
+        "note": "Select Maharashtra → Mumbai North West → Ravindra Dattaram Waikar → 18th Lok Sabha on the dashboard. Member 3042793; reporting cut-off is not supplied.",
+        "manifests": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      }
+    ],
+    "funds": {
+      "representativeId": "ls18-mh-mumbai-north-west",
+      "scheme": "MPLADS",
+      "period": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+      "entitlement": {
+        "label": "Annual entitlement",
+        "value": 50000000,
+        "format": "currency-inr",
+        "availability": "published",
+        "reportingPeriod": "Per year, per Member of Parliament",
+        "note": "Every MP may recommend works up to ₹5 crore each year under the scheme. This is an entitlement to recommend, not money held by the member.",
+        "sourceRefs": [
+          "mplads-guidelines"
+        ]
+      },
+      "allocatedLimit": {
+        "label": "Allocated limit",
+        "value": 147000000,
+        "format": "currency-inr",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "note": "The dashboard allocation for this term. Distinct from the annual scheme entitlement and from a release.",
+        "sourceRefs": [
+          "mplads-summary",
+          "mplads-guidelines"
+        ]
+      },
+      "released": {
+        "label": "Amount released",
+        "value": null,
+        "format": "currency-inr",
+        "availability": "no-data",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "note": "Not supplied in the retrieved report. Allocation is not treated as release.",
+        "sourceRefs": [
+          "mplads-summary",
+          "mplads-guidelines"
+        ]
+      },
+      "utilization": {
+        "label": "Utilization",
+        "value": null,
+        "format": "percent",
+        "availability": "no-data",
+        "note": "Not supplied as a percentage in the retrieved report; not calculated from unlike funding measures.",
+        "sourceRefs": [
+          "mplads-summary",
+          "mplads-guidelines"
+        ]
+      },
+      "recommended": {
+        "label": "Amount recommended",
+        "value": 147000000,
+        "format": "currency-inr",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "note": "Value of works the member has recommended to the District Authority.",
+        "sourceRefs": [
+          "mplads-summary",
+          "mplads-guidelines"
+        ]
+      },
+      "sanctioned": {
+        "label": "Amount sanctioned",
+        "value": 98000000,
+        "format": "currency-inr",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "note": "Value of recommended works the District Authority has approved.",
+        "sourceRefs": [
+          "mplads-summary",
+          "mplads-guidelines"
+        ]
+      },
+      "spent": {
+        "label": "Amount spent",
+        "value": 53799122,
+        "format": "currency-inr",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "note": "Expenditure reported against sanctioned works.",
+        "sourceRefs": [
+          "mplads-summary",
+          "mplads-guidelines"
+        ]
+      },
+      "balance": {
+        "label": "Amount remaining",
+        "value": null,
+        "format": "currency-inr",
+        "availability": "no-data",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "note": "Unspent balance held with the District Authority, as the report states it. Not computed by us.",
+        "sourceRefs": [
+          "mplads-summary",
+          "mplads-guidelines"
+        ]
+      },
+      "schemeNotes": [
+        "MPLADS money is never held by the Member of Parliament. The member recommends works; the District Authority sanctions them, executes them and reports the expenditure.",
+        "Because sanction and execution sit with the district administration, a delay in spending is not by itself attributable to the member, and a completed work is not by itself built by the member.",
+        "Funds do not lapse in the way ordinary budget heads do. An unspent balance in one year can be carried into the next, so a low spend figure mid-term is normal."
+      ],
+      "sourceRefs": [
+        "mplads-summary",
+        "mplads-guidelines"
+      ]
+    },
+    "projects": [
+      {
+        "id": "mplads:145119",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145119-Construction of buildings for community cultural activities",
+        "description": "Construction of sabhagruha near Brook Heaven Building, Shamnagar, Jogeshwari East, Mumbai.",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "amountSanctioned": 1500000,
+        "recommendationDate": "2024-10-02",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:145410",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145410-Construction of roads, link roads, pathways or any other road with or without drainage system",
+        "description": "Construction of Road at Umedbhai Patel High School to CDEFRN Unit, Sunder Nagar, Malad (W)",
+        "category": "Repair and Renovation",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2000000,
+        "amountSanctioned": 2000000,
+        "recommendationDate": "2024-10-04",
+        "sanctionDate": "2026-01-20",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 1998481,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:145411",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145411-Construction of roads, link roads, pathways or any other road with or without drainage system",
+        "description": "Construction of Road at Pawanbaug Society road, Near Chichpokli Fatak, Malad (W), Mumbai",
+        "category": "Repair and Renovation",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "amountSanctioned": 1500000,
+        "recommendationDate": "2024-10-08",
+        "sanctionDate": "2025-08-12",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 1498862,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:145414",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145414-Construction of roads, link roads, pathways or any other road with or without drainage system",
+        "description": "Construction of Road Near Cloud-9 Hospital to Blue Horizon Society, Link Road, Malad (W)",
+        "category": "Normal/Others",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2000000,
+        "amountSanctioned": 2000000,
+        "recommendationDate": "2024-10-08",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 1998482,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:145418",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145418-Construction of roads, link roads, pathways or any other road with or without drainage system",
+        "description": "Construction of Road Near Ashish Society to Daffodil Society, Pawanbaug, Malad(W)",
+        "category": "Normal/Others",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2000000,
+        "amountSanctioned": 2000000,
+        "recommendationDate": "2024-10-08",
+        "sanctionDate": "2025-07-01",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 1998481,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:145419",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145419-Construction of roads, link roads, pathways or any other road with or without drainage system",
+        "description": "Construction of Road at Aakansha Society to Shankar Nagar, front of rustomjee Goregaon (W)",
+        "category": "Normal/Others",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "amountSanctioned": 1500000,
+        "recommendationDate": "2024-10-08",
+        "sanctionDate": "2025-07-23",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 1498862,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:145420",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145420-Construction of roads, link roads, pathways or any other road with or without drainage system",
+        "description": "Construction of Road Near Devrukhakarwadi to Aaditya Industrial  Estate, Malad (W)",
+        "category": "Normal/Others",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2000000,
+        "amountSanctioned": 2000000,
+        "recommendationDate": "2024-10-08",
+        "sanctionDate": "2025-08-06",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 1998481,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:145422",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145422-Construction of community centers and community halls",
+        "description": "Construction of Sabhamandap Near Nagari Niwara Parisad Zone-2, Goregaon (E)",
+        "category": "Normal/Others",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2500000,
+        "amountSanctioned": 2500000,
+        "recommendationDate": "2024-10-08",
+        "sanctionDate": "2025-07-23",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 2498103,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:145424",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145424-Construction of community centers and community halls",
+        "description": "Construction of Sabhamandap Near Shri Krushna Nagar SRA Parisar, Building No.2, Goregaon (E)",
+        "category": "Normal/Others",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1800000,
+        "amountSanctioned": 1800000,
+        "recommendationDate": "2024-10-08",
+        "sanctionDate": "2026-01-20",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 1798634,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:145425",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145425-Construction of toilet blocks",
+        "description": "Construction of 14 seated Toilet block at Shri Hanuman Tekadi Seva Mandal, Shankar Desai Chawl, Tanaji Nagar, Malad (E)",
+        "category": "Normal/Others",
+        "officialStatus": "Work partially Completed",
+        "status": "in-progress",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2100000,
+        "amountSanctioned": 2100000,
+        "recommendationDate": "2024-10-08",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 2098407,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:145426",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145426-Fitting of Sitting RCC Benches in Public Places",
+        "description": "Construction of Seating benches at Minatai Thakre Kridagan (New Mhada Dindoshi Colony /Nagari Niwara Parisad) Near Bus No.646 last BEST Stop, Goregaon (E)",
+        "category": "Normal/Others",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "amountSanctioned": 1500000,
+        "recommendationDate": "2024-10-08",
+        "sanctionDate": "2025-07-23",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 1498862,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:145427",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145427-Construction of roads, link roads, pathways or any other road with or without drainage system",
+        "description": "Construction of Poch Rasta and Shed at Nagsen Chawl, Kranti Nagar, Ward No.39, Malad (E)",
+        "category": "Normal/Others",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 3000000,
+        "amountSanctioned": 3000000,
+        "recommendationDate": "2024-10-08",
+        "sanctionDate": "2026-01-20",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 2995469,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:145428",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145428-Construction of roads, link roads, pathways or any other road with or without drainage system",
+        "description": "Construction of Ladikaran of Parisar at Shivshankar Mandir Parisar, Ward No.39, Malad (E)",
+        "category": "Normal/Others",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "amountSanctioned": 1500000,
+        "recommendationDate": "2024-10-08",
+        "sanctionDate": "2025-07-01",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 1498861,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:145430",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145430-Construction of community centers and community halls",
+        "description": "Construction of Samaj Mandir, at Shri Sai Chawl  committee , Tanaji Nagar, Kurar Village, Malad (E)",
+        "category": "Normal/Others",
+        "officialStatus": "Work partially Completed",
+        "status": "in-progress",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2000000,
+        "amountSanctioned": 2000000,
+        "recommendationDate": "2024-10-08",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 1998481,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:145431",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145431-Construction of roads, link roads, pathways or any other road with or without drainage system",
+        "description": "Consturction of Ladikaran at Mrunaltai Gore, Near Nagari Niwara Parisad, Dindoshi, Goregaon (E)",
+        "category": "Normal/Others",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 4000000,
+        "amountSanctioned": 4000000,
+        "recommendationDate": "2024-10-08",
+        "sanctionDate": "2026-01-20",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 3993959,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:145433",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/145433-Fitting of Sitting RCC Benches in Public Places",
+        "description": "Construction of Seating arrangement at Minatai Thakre Udyan, Dindoshi, Goregaon (E) ",
+        "category": "Normal/Others",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "amountSanctioned": 1500000,
+        "recommendationDate": "2024-10-08",
+        "sanctionDate": "2025-08-06",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 1498862,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:146670",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/146670-Providing CCTV camera system for security of public areas",
+        "description": "P/F C.C.T.V. Camera at Majaswadi Sarvoday Nagar, Near M.H.B. Colony, Jogeshwari (E)",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 100000,
+        "amountSanctioned": 100000,
+        "recommendationDate": "2024-10-10",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:244673",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244673-Construction of public toilets and bathrooms",
+        "description": "Construction of 12 Seated toilet at Kranti Nagar Saleem Sayyed sir Jogeshwari West Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1800000,
+        "amountSanctioned": 1800000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:244678",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244678-Crematoriums/energy efficient crematoriums or structures on burial/cremation ground",
+        "description": "Construction of Mortuary Registration Office at Rajeshwar Hindu mashan Bhumi Pratap Nagar Jogeshwari East Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Work partially Completed",
+        "status": "in-progress",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2500000,
+        "amountSanctioned": 2500000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 2498103,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:244679",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244679-Construction of community centers and community halls",
+        "description": "Construction of library at Dr Babasaheb Ambedkar square unit number 5 AARE colony Goregaon East Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Time Estimation",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2500000,
+        "amountSanctioned": 2500000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:244680",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244680-Construction of community centers and community halls",
+        "description": "Construction of Samaj Mandir at shravasti Buddh vihar Goregaon East Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 5000000,
+        "amountSanctioned": 5000000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 4971782,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:244683",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244683-Construction of community centers and community halls",
+        "description": "Construction of Samaj Mandir at Nagari nivara mahasangh Goregaon East Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 3000000,
+        "amountSanctioned": 3000000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 2983069,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:244685",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244685-Construction of common work sheds/ common covered sitting area",
+        "description": "Construction of SHED at WARD number 61 near Hanuman Mandir Oshiwara Jogeshwari West Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2500000,
+        "amountSanctioned": 2500000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:244688",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244688-Construction of common work sheds/ common covered sitting area",
+        "description": "Construction of SHED at Anubhav Mitra Mandal Ganesh Nagar Jogeshwari West Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2500000,
+        "amountSanctioned": 2500000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:244692",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244692-Construction of community centers and community halls",
+        "description": "Construction of Samaj Mandir at ward number 63 Nepali CHAWL Vikas Nagar Jogeshwari WEST Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 3000000,
+        "amountSanctioned": 3000000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-17",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 2983069,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:244696",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244696-Construction of public toilets and bathrooms",
+        "description": "Construction of 20 seated toilet at a ward number 63 Shastri Nagar Agrawal estate Jogeshwari West Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 3000000,
+        "amountSanctioned": 3000000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-17",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:244697",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244697-Construction of common work sheds/ common covered sitting area",
+        "description": "Construction of shade at Jay Bheem Nagar AARE road Powai Andheri East Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Work partially Completed",
+        "status": "in-progress",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2500000,
+        "amountSanctioned": 2500000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 2497221,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:244704",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244704-Construction of common work sheds/ common covered sitting area",
+        "description": "Construction of shade at Pune Nagar Powai Andheri East Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Work partially Completed",
+        "status": "in-progress",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2000000,
+        "amountSanctioned": 2000000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 1997775,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:244705",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244705-Construction of community centers and community halls",
+        "description": "Construction of Samaj Mandir at Ramkrishna KONDI VEETA Andheri EAST Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Work partially Completed",
+        "status": "in-progress",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2000000,
+        "amountSanctioned": 2000000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 1998481,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:244706",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244706-Construction of common work sheds/ common covered sitting area",
+        "description": "Construction of shade at Bismillah cooperative housing society Andheri West Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1100000,
+        "amountSanctioned": 1100000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:244707",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244707-Construction of common work sheds/ common covered sitting area",
+        "description": "Construction of shade at Hussain chowk unit number 29 AARE colony Goregaon East Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1100000,
+        "amountSanctioned": 1100000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:244712",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244712-Construction of common work sheds/ common covered sitting area",
+        "description": "Construction of SHED at Ward number 62 MOMIN Nagar Versova Andheri West Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2500000,
+        "amountSanctioned": 2500000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:244713",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244713-Construction of common work sheds/ common covered sitting area",
+        "description": "Construction of SHED at ward number 66 GAVDEVI dongar Jolly circle Versova Andheri West Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Work partially Completed",
+        "status": "in-progress",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2500000,
+        "amountSanctioned": 2500000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:244714",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244714-Installing tube-wells and borewells",
+        "description": "Construction of borewell at Om Sai Ekta SRA corporatIVE housing society plot number 216 survey number 105 Gilbert hill road Andheri West Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 500000,
+        "amountSanctioned": 500000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:244715",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244715-Construction of common work sheds/ common covered sitting area",
+        "description": "Construction of shade at Shiv Shakti Mitra Mandal Mayur Nagar SRa colony Goregaon West Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 3000000,
+        "amountSanctioned": 3000000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:244716",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244716-Construction of common work sheds/ common covered sitting area",
+        "description": "Construction of shared at Lokmanya Tilak Ganesh visarjan talab Shyam Nagar Jogeshwari west east Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 3000000,
+        "amountSanctioned": 3000000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:244717",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244717-Construction of common work sheds/ common covered sitting area",
+        "description": "Construction of Shed near Srinivas apartment, plot number 13, behind Jawahar Nagar bus stop, SV road Goregaon West, Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Vendor Identification",
+        "status": "sanctioned",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "amountSanctioned": 1500000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-17",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 1498335,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:244718",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/244718-Providing drains and gutters for public drainage",
+        "description": "Providing Ladi at Saraswati society Nagari nivara plot number 6 Goregaon East Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "amountSanctioned": 1500000,
+        "recommendationDate": "2025-10-31",
+        "sanctionDate": "2026-03-25",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:262892",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/262892-Providing drains and gutters for public drainage",
+        "description": "Providing Ladi near Ujamba cooperative housing society Jogeshwari East Mumbai ",
+        "category": "Normal/Others",
+        "officialStatus": "Work partially Completed",
+        "status": "in-progress",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "amountSanctioned": 1500000,
+        "recommendationDate": "2026-01-29",
+        "sanctionDate": "2026-03-24",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned",
+          "mplads-expenditure"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+            "retrievedAt": "2026-09-19T19:07:56.873Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+            "storedAt": "data\\raw\\mplads\\expenditure-Expenditure-on-Completed-and-On-going-Works-as-on-Date.60efd41c9201.a2ef098f-6720-49ca-b9e3-9dc32204bd44.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "amountSpent": 1500000,
+        "implementingAgency": "MUMBAI SLUM IMPROVMENT BOARD MHADA"
+      },
+      {
+        "id": "mplads:262893",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/262893-Installing tube-wells and borewells",
+        "description": "Providing borewell near kokan Sangam srh building number 8 kokan Nagar Jogeshwari East Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 300000,
+        "amountSanctioned": 300000,
+        "recommendationDate": "2026-01-29",
+        "sanctionDate": "2026-03-24",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:262894",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/262894-Construction of common work sheds/ common covered sitting area",
+        "description": "Providing Shed Sarvjanik Ganesh utsav mandal Bangali compound Goregaon East Mumbai ",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "amountSanctioned": 1500000,
+        "recommendationDate": "2026-01-29",
+        "sanctionDate": "2026-03-24",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:262898",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/262898-Construction of common work sheds/ common covered sitting area",
+        "description": "Providing shed near saidatt society Sai Wadi Andheri East Mumbai ",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1000000,
+        "amountSanctioned": 1000000,
+        "recommendationDate": "2026-01-29",
+        "sanctionDate": "2026-03-24",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:262899",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/262899-Construction of public libraries and reading rooms",
+        "description": "Constructing library and providing equipments for MPSC and UPSC students at goregaon east Mumbai  ",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 4700000,
+        "amountSanctioned": 4700000,
+        "recommendationDate": "2026-01-29",
+        "sanctionDate": "2026-03-12",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:262900",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/262900-Providing drains and gutters for public drainage",
+        "description": "Beautification work near Andheri court court lane Andheri East Mumbai ",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2500000,
+        "amountSanctioned": 2500000,
+        "recommendationDate": "2026-01-29",
+        "sanctionDate": "2026-03-24",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:262901",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/262901-Construction of common work sheds/ common covered sitting area",
+        "description": "Providing shed and beautification work near New five star seva mandal, Nutan chemical compound, Walbhatta road, Goregaon East, Mumbai.",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 3500000,
+        "amountSanctioned": 3500000,
+        "recommendationDate": "2026-01-29",
+        "sanctionDate": "2026-03-24",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:262902",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "WS/MP18308/2025-2026/262902-Providing drains and gutters for public drainage",
+        "description": "Providing laadi near Dhiraj Darshan building to kokan Nagar Jogeshwari East Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Recommendations report: Pending for Sanction; sanctions report: Sanction",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "amountSanctioned": 1500000,
+        "recommendationDate": "2026-01-29",
+        "sanctionDate": "2026-03-24",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended",
+          "mplads-sanctioned"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          },
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+            "retrievedAt": "2026-09-19T19:07:56.804Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+            "storedAt": "data\\raw\\mplads\\works-Works-Sanctioned.ec5b076cd01a.a12c7d18-c7ca-4adb-a438-b2d8ff697c0f.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ],
+        "statusNote": "The two official reports disagree on the work stage. Both labels are retained."
+      },
+      {
+        "id": "mplads:294678",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Construction of common work sheds/ common covered sitting area",
+        "description": "CONST. OF OPEN SHED AT SWAMI VIVEKANAND HIGH SCHOOL MALAD EAST MUMBAI",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:294684",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Construction of public toilets and bathrooms",
+        "description": "Constructing a 3-seat toilet at Nagari Nivara Colony Cultural Center, Sankalp Residence, Zone No. 4, Malad (East), Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 500000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295021",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Construction of common work sheds/ common covered sitting area",
+        "description": "xConstruction of a shed near Shivaji Nagar Vikas Mandal, Appapada, Malad (East), Mumbai.",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295022",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Construction of roads, link roads, pathways or any other road with or without drainage system",
+        "description": "Concreting work at Ward No. 54, Ramnagar, Rammandir Road, Goregaon (East), Mumbai.",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 3500000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295023",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Construction of community centers and community halls",
+        "description": "Renovation of the community hall near Jayratna Co-op. Housing Society, New Shastri Nagar, Road No. 2, Goregaon (West), Mumbai.",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2500000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295024",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Development of public parks",
+        "description": "Beautification of the garden near Nirlon Co-op. Housing Society, Chincholi, Malad (West), Mumbai.",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2500000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295025",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Providing drains and gutters for public drainage",
+        "description": "Paving work near Shri Sai Pawan S.R.A., Ganeshnagar, Beharanjavag, Jogeshwari (West), Mumbai.\n",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2000000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295026",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Construction of community centers and community halls",
+        "description": "Beautification of the community hallnear Cosmopolitan Co-op. Housing Society, Patliputra, Oshiwara Link Road, Jogeshwari (West), Mumbai.",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2500000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295027",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Construction of community centers and community halls",
+        "description": "Beautification of the community hall near Tarzan Public Navratrotsav Mandal, Ambamata Mandir, Kajuwadi, Chakala, Andheri (East), Mumbai.\n",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295028",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Construction of common work sheds/ common covered sitting area",
+        "description": "Construction of a shed and paving work near Sai Parvati Niwas S.R.A., N.S. Phadke Marg, Andheri (East), Mumbai.",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2000000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295029",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Construction of common work sheds/ common covered sitting area",
+        "description": "Construction of a shed and paving work near Marol Police Colony, Marol Naka, Andheri (East), Mumbai",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2500000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295030",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Construction of common work sheds/ common covered sitting area",
+        "description": "Construction of a shed near Hinduhridaysamrat Balasaheb Thackeray Trauma Municipal Corporation Care Hospital, Western Express Highway, Jogeshwari (East), Mumbai.\n",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295031",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Providing drains and gutters for public drainage",
+        "description": "Beautification and paving workat Sai Siddhi Sankul, near MMRDA Colony, Western Express Highway, Jogeshwari (East), Mumba",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 2500000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295032",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Construction of community centers and community halls",
+        "description": "Renovation of the community hall near Ganpati Mandir, Plot No. 6, General Arunkumar Vaidya Marg, Goregaon (East), Mumbai.",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 5000000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295033",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Construction of public libraries and reading rooms",
+        "description": "Construction of a library near Nagari Nivara Parishad, Chhatrapati Shivaji Maharaj Chowk, Dindoshi, Malad (East), Mumbai.",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1500000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295034",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Construction of public libraries and reading rooms",
+        "description": "Construction of a shed and librarynear Building No. 8, Nagari Nivara Parishad, Chhatrapati Shivaji Maharaj Chowk, Dindoshi, Malad (East), Mumbai.\n",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 3000000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295035",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Construction of community centers and community halls",
+        "description": "Beautification of the community hall near Nagari Nivara Parishad, Gen. Arunkumar Vaidya Marg, Goregaon (East), Mumbai.\n",
+        "category": "Repair and Renovation",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 3000000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295036",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Construction of public toilets and bathrooms",
+        "description": "Construction of a shed and 6-seater toilet near Raghavendra Mandir, Gulshan Nagar, Oshiwara, Jogeshwari (West), Mumbai.\n",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 3000000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295037",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Providing drains and gutters for public drainage",
+        "description": "Beautification and paving work near Satpuda Building No. 22 and 23, near Nagari Nivara Parishad, Gen. Arunkumar Vaidya Marg, Goregaon (East), Mumbai.\n",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 3000000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295038",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Providing drains and gutters for public drainage",
+        "description": "Beautification of the wall at Majas Depot, Jogeshwari Vikhroli Link Road, Jogeshwari (East), Mumbai.",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 3000000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      },
+      {
+        "id": "mplads:295039",
+        "representativeId": "ls18-mh-mumbai-north-west",
+        "officialTitle": "NA-Providing supply pipelines for drinking water",
+        "description": "Beautification, flag post installation, and aesthetic improvement in Jogeshwari Assembly Constituency, Jogeshwari (East), Mumbai.",
+        "category": "Normal/Others",
+        "officialStatus": "Pending for Sanction",
+        "status": "recommended",
+        "districtAuthority": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+        "amountRecommended": 1000000,
+        "recommendationDate": "2026-07-15",
+        "availability": "published",
+        "reportingPeriod": "18th Lok Sabha; dashboard as retrieved (reporting cut-off not supplied)",
+        "sourceUrl": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+        "sourceRefs": [
+          "mplads-recommended"
+        ],
+        "provenance": [
+          {
+            "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+            "sourceIdentifier": "3042793",
+            "method": "POST",
+            "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+            "retrievedAt": "2026-09-19T19:07:56.542Z",
+            "parserVersion": "mplads-1.0.0",
+            "contentHash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+            "storedAt": "data\\raw\\mplads\\works-Works-Recommended.15e6f6a7be34.0cd4576d-d59d-47eb-813b-b0ecb8443cee.raw",
+            "status": 200,
+            "contentType": "text/plain;charset=ISO-8859-1"
+          }
+        ]
+      }
+    ]
+  }
+}

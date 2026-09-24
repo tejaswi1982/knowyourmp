@@ -1,0 +1,11 @@
+{
+  "sourceUrl": "https://sansad.in/api_ls/debate/debate-search?debateTypeId=&loksabha=18&sessionNumber=&fromDate=&toDate=&searchKeyword=&page=4&size=10&mpCode=5701&sortBy&sortOrder&house=LS",
+  "sourceIdentifier": "5701",
+  "method": "GET",
+  "retrievedAt": "2026-09-19T19:02:01.416Z",
+  "parserVersion": "sansad-1.0.0",
+  "contentHash": "71d0db428460aa9158ae0245dc20864fedc13072f89b02fd89c3ca95eee31463",
+  "storedAt": "data\\raw\\sansad\\debates-5701-4.71d0db428460.3b409473-ded5-41c5-8fe3-6a9882092c35.raw",
+  "status": 200,
+  "contentType": "application/json"
+}

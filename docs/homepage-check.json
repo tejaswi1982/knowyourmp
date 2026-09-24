@@ -1,0 +1,470 @@
+[
+  {
+    "width": 320,
+    "height": 700,
+    "scrollWidth": 320,
+    "scrollHeight": 700,
+    "buttonBottom": 584.8125,
+    "buttonHeight": 58.375,
+    "contrast": [
+      {
+        "name": "entry-brand",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 10.54,
+        "required": 4.5
+      },
+      {
+        "name": "H1",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 8.65,
+        "required": 3
+      },
+      {
+        "name": "INPUT",
+        "color": "rgba(245, 242, 234, 0.75)",
+        "minimum": 8.91,
+        "required": 3
+      },
+      {
+        "name": "BUTTON",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 14.96,
+        "required": 4.5
+      },
+      {
+        "name": "P",
+        "color": "rgba(245, 242, 234, 0.8)",
+        "minimum": 10.16,
+        "required": 4.5
+      },
+      {
+        "name": "A",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.97,
+        "required": 4.5
+      },
+      {
+        "name": "SUMMARY",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.97,
+        "required": 4.5
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "height": 812,
+    "scrollWidth": 375,
+    "scrollHeight": 812,
+    "buttonBottom": 696.8125,
+    "buttonHeight": 62.59375,
+    "contrast": [
+      {
+        "name": "entry-brand",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 11.22,
+        "required": 4.5
+      },
+      {
+        "name": "H1",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 14.33,
+        "required": 3
+      },
+      {
+        "name": "INPUT",
+        "color": "rgba(245, 242, 234, 0.75)",
+        "minimum": 9.05,
+        "required": 3
+      },
+      {
+        "name": "BUTTON",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 14.99,
+        "required": 4.5
+      },
+      {
+        "name": "P",
+        "color": "rgba(245, 242, 234, 0.8)",
+        "minimum": 10.25,
+        "required": 4.5
+      },
+      {
+        "name": "A",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 16.08,
+        "required": 4.5
+      },
+      {
+        "name": "SUMMARY",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 16.12,
+        "required": 4.5
+      }
+    ]
+  },
+  {
+    "width": 430,
+    "height": 932,
+    "scrollWidth": 430,
+    "scrollHeight": 932,
+    "buttonBottom": 816.8125,
+    "buttonHeight": 62.59375,
+    "contrast": [
+      {
+        "name": "entry-brand",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 11.23,
+        "required": 4.5
+      },
+      {
+        "name": "H1",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 14.79,
+        "required": 3
+      },
+      {
+        "name": "INPUT",
+        "color": "rgba(245, 242, 234, 0.75)",
+        "minimum": 9.05,
+        "required": 3
+      },
+      {
+        "name": "BUTTON",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.32,
+        "required": 4.5
+      },
+      {
+        "name": "P",
+        "color": "rgba(245, 242, 234, 0.8)",
+        "minimum": 10.41,
+        "required": 4.5
+      },
+      {
+        "name": "A",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.97,
+        "required": 4.5
+      },
+      {
+        "name": "SUMMARY",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 16.23,
+        "required": 4.5
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1000,
+    "scrollWidth": 768,
+    "scrollHeight": 1000,
+    "buttonBottom": 868.8125,
+    "buttonHeight": 62.59375,
+    "contrast": [
+      {
+        "name": "entry-brand",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 7.99,
+        "required": 4.5
+      },
+      {
+        "name": "H1",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 13.41,
+        "required": 3
+      },
+      {
+        "name": "INPUT",
+        "color": "rgba(245, 242, 234, 0.75)",
+        "minimum": 8.45,
+        "required": 3
+      },
+      {
+        "name": "BUTTON",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 14.45,
+        "required": 4.5
+      },
+      {
+        "name": "P",
+        "color": "rgba(245, 242, 234, 0.8)",
+        "minimum": 9.96,
+        "required": 4.5
+      },
+      {
+        "name": "A",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.93,
+        "required": 4.5
+      },
+      {
+        "name": "SUMMARY",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.77,
+        "required": 4.5
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "height": 900,
+    "scrollWidth": 1024,
+    "scrollHeight": 900,
+    "buttonBottom": 768.8125,
+    "buttonHeight": 63.734375,
+    "contrast": [
+      {
+        "name": "entry-brand",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 7.48,
+        "required": 4.5
+      },
+      {
+        "name": "H1",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 11.01,
+        "required": 3
+      },
+      {
+        "name": "INPUT",
+        "color": "rgba(245, 242, 234, 0.75)",
+        "minimum": 8.59,
+        "required": 3
+      },
+      {
+        "name": "BUTTON",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 14.11,
+        "required": 4.5
+      },
+      {
+        "name": "P",
+        "color": "rgba(245, 242, 234, 0.8)",
+        "minimum": 9.68,
+        "required": 4.5
+      },
+      {
+        "name": "A",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.81,
+        "required": 4.5
+      },
+      {
+        "name": "SUMMARY",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.66,
+        "required": 4.5
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "height": 900,
+    "scrollWidth": 1280,
+    "scrollHeight": 900,
+    "buttonBottom": 768.8125,
+    "buttonHeight": 76.015625,
+    "contrast": [
+      {
+        "name": "entry-brand",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 8.22,
+        "required": 4.5
+      },
+      {
+        "name": "H1",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 10.69,
+        "required": 3
+      },
+      {
+        "name": "INPUT",
+        "color": "rgba(245, 242, 234, 0.75)",
+        "minimum": 8.59,
+        "required": 3
+      },
+      {
+        "name": "BUTTON",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 13.81,
+        "required": 4.5
+      },
+      {
+        "name": "P",
+        "color": "rgba(245, 242, 234, 0.8)",
+        "minimum": 10.31,
+        "required": 4.5
+      },
+      {
+        "name": "A",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.66,
+        "required": 4.5
+      },
+      {
+        "name": "SUMMARY",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.77,
+        "required": 4.5
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1440,
+    "scrollHeight": 900,
+    "buttonBottom": 768.8125,
+    "buttonHeight": 81.78125,
+    "contrast": [
+      {
+        "name": "entry-brand",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 8.35,
+        "required": 4.5
+      },
+      {
+        "name": "H1",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 10.85,
+        "required": 3
+      },
+      {
+        "name": "INPUT",
+        "color": "rgba(245, 242, 234, 0.75)",
+        "minimum": 8.84,
+        "required": 3
+      },
+      {
+        "name": "BUTTON",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 13.94,
+        "required": 4.5
+      },
+      {
+        "name": "P",
+        "color": "rgba(245, 242, 234, 0.8)",
+        "minimum": 10.31,
+        "required": 4.5
+      },
+      {
+        "name": "A",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.61,
+        "required": 4.5
+      },
+      {
+        "name": "SUMMARY",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.77,
+        "required": 4.5
+      }
+    ]
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "scrollWidth": 844,
+    "scrollHeight": 390,
+    "buttonBottom": 282.8125,
+    "buttonHeight": 62.59375,
+    "contrast": [
+      {
+        "name": "entry-brand",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 7.6,
+        "required": 4.5
+      },
+      {
+        "name": "H1",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 3.54,
+        "required": 3
+      },
+      {
+        "name": "INPUT",
+        "color": "rgba(245, 242, 234, 0.75)",
+        "minimum": 8.36,
+        "required": 3
+      },
+      {
+        "name": "BUTTON",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 13.76,
+        "required": 4.5
+      },
+      {
+        "name": "P",
+        "color": "rgba(245, 242, 234, 0.8)",
+        "minimum": 9.8,
+        "required": 4.5
+      },
+      {
+        "name": "A",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.81,
+        "required": 4.5
+      },
+      {
+        "name": "SUMMARY",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.66,
+        "required": 4.5
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "height": 500,
+    "scrollWidth": 375,
+    "scrollHeight": 500,
+    "buttonBottom": 384.8125,
+    "buttonHeight": 62.59375,
+    "contrast": [
+      {
+        "name": "entry-brand",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 8.09,
+        "required": 4.5
+      },
+      {
+        "name": "H1",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 3.7,
+        "required": 3
+      },
+      {
+        "name": "INPUT",
+        "color": "rgba(245, 242, 234, 0.75)",
+        "minimum": 3.7,
+        "required": 3
+      },
+      {
+        "name": "BUTTON",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 6.3,
+        "required": 4.5
+      },
+      {
+        "name": "P",
+        "color": "rgba(245, 242, 234, 0.8)",
+        "minimum": 10.05,
+        "required": 4.5
+      },
+      {
+        "name": "A",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.77,
+        "required": 4.5
+      },
+      {
+        "name": "SUMMARY",
+        "color": "rgb(245, 242, 234)",
+        "minimum": 15.5,
+        "required": 4.5
+      }
+    ]
+  }
+]

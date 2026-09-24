@@ -1,0 +1,39 @@
+{
+  "name": "know-your-mp",
+  "version": "0.1.0",
+  "private": true,
+  "engines": { "node": ">=24.14.0" },
+  "description": "A citizen utility for finding your elected representative and reading the public record.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint app components lib scripts types data/mps data/constituencies data/sources.ts tailwind.config.ts --ext .js,.jsx,.ts,.tsx,.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "test:layout": "node scripts/check-layout.mjs",
+    "test:civic": "node scripts/check-civic-loop.mjs",
+    "ingest:sansad": "tsx scripts/ingest.ts sansad",
+    "ingest:mplads": "tsx scripts/ingest.ts mplads"
+  },
+  "dependencies": {
+    "next": "15.5.26",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "sharp": "^0.35.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.19",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "15.5.26",
+    "postcss": "^8.5.28",
+    "tailwindcss": "3.4.10",
+    "tsx": "^4.20.5",
+    "typescript": "5.5.4"
+  },
+  "overrides": { "postcss": "$postcss" }
+}

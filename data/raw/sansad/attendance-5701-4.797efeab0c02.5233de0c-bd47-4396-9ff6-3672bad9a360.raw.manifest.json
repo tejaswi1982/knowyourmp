@@ -1,0 +1,11 @@
+{
+  "sourceUrl": "https://sansad.in/api_ls/member/getMemberAttendanceByMpsno?loksabha=18&session=4&mpsno=5701",
+  "sourceIdentifier": "5701",
+  "method": "GET",
+  "retrievedAt": "2026-09-19T19:06:34.915Z",
+  "parserVersion": "sansad-1.0.0",
+  "contentHash": "797efeab0c0288286bfc2ec98c5130078c821762fabbbb3ce04281af86ee0a7a",
+  "storedAt": "data\\raw\\sansad\\attendance-5701-4.797efeab0c02.5233de0c-bd47-4396-9ff6-3672bad9a360.raw",
+  "status": 200,
+  "contentType": "application/json"
+}

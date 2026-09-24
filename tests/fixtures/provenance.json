@@ -1,0 +1,102 @@
+{
+  "questions": {
+    "url": "https://sansad.in/api_ls/question/qetAllQuestionsForMember?lkNo=18&mpNo=5701&pageNo=1&pageSize=10&locale=en",
+    "finalUrl": "https://sansad.in/api_ls/question/qetAllQuestionsForMember?lkNo=18&mpNo=5701&pageNo=1&pageSize=10&locale=en",
+    "status": 200,
+    "retrievedAt": "2026-09-19T18:51:24.197Z",
+    "hash": "a842fdada6ffe7dbc111885fdd467d5bc16a5a459f16dbf48ec4d90145365c4b",
+    "contentType": "application/json",
+    "fixture": "questions.json",
+    "sha256": "a842fdada6ffe7dbc111885fdd467d5bc16a5a459f16dbf48ec4d90145365c4b"
+  },
+  "debates": {
+    "url": "https://sansad.in/api_ls/debate/debate-search?debateTypeId=&loksabha=18&sessionNumber=&fromDate=&toDate=&searchKeyword=&page=1&size=10&mpCode=5701&sortBy&sortOrder&house=LS",
+    "finalUrl": "https://sansad.in/api_ls/debate/debate-search?debateTypeId=&loksabha=18&sessionNumber=&fromDate=&toDate=&searchKeyword=&page=1&size=10&mpCode=5701&sortBy&sortOrder&house=LS",
+    "status": 200,
+    "retrievedAt": "2026-09-19T18:51:11.795Z",
+    "hash": "31f0bf6e3d002909439d581c800e8fa5223cd873caebcde18ca94989c312f546",
+    "contentType": "application/json",
+    "fixture": "debates.json",
+    "sha256": "31f0bf6e3d002909439d581c800e8fa5223cd873caebcde18ca94989c312f546"
+  },
+  "bills": {
+    "url": "https://sansad.in/api_ls/debate/debate-search?debateTypeId=39&loksabha=18&sessionNumber=&fromDate=&toDate=&searchKeyword=&page=1&size=10&mpCode=5701&sortBy&sortOrder&house=LS",
+    "finalUrl": "https://sansad.in/api_ls/debate/debate-search?debateTypeId=39&loksabha=18&sessionNumber=&fromDate=&toDate=&searchKeyword=&page=1&size=10&mpCode=5701&sortBy&sortOrder&house=LS",
+    "status": 200,
+    "retrievedAt": "2026-09-19T18:53:36.993Z",
+    "hash": "d941484e8a58ec3f552b2689a12e022eb89638beee496a1270c6a08b94b47fd7",
+    "contentType": "application/json",
+    "fixture": "bills.json",
+    "sha256": "d941484e8a58ec3f552b2689a12e022eb89638beee496a1270c6a08b94b47fd7"
+  },
+  "committees": {
+    "url": "https://sansad.in/api_ls/committee/findCommitteeMembership?mpsno=5701&lsno=18",
+    "finalUrl": "https://sansad.in/api_ls/committee/findCommitteeMembership?mpsno=5701&lsno=18",
+    "status": 200,
+    "retrievedAt": "2026-09-19T18:51:11.501Z",
+    "hash": "2b4d517ae9f1c2c6e9db3639c691631c1cf02fe7cfa0b1b1243796a6a0e2e609",
+    "contentType": "application/json",
+    "fixture": "committees.json",
+    "sha256": "2b4d517ae9f1c2c6e9db3639c691631c1cf02fe7cfa0b1b1243796a6a0e2e609"
+  },
+  "attendance": {
+    "url": "https://sansad.in/api_ls/member/getMemberAttendanceByMpsno?loksabha=18&session=7&mpsno=5701",
+    "finalUrl": "https://sansad.in/api_ls/member/getMemberAttendanceByMpsno?loksabha=18&session=7&mpsno=5701",
+    "status": 200,
+    "retrievedAt": "2026-09-19T18:51:11.266Z",
+    "hash": "eedffa090832509618f2fb7b083547d664a1ed5e20f4bce483076849a10231a5",
+    "contentType": "application/json",
+    "fixture": "attendance.json",
+    "sha256": "eedffa090832509618f2fb7b083547d664a1ed5e20f4bce483076849a10231a5"
+  },
+  "sessions": {
+    "url": "https://sansad.in/api_ls/member/members-loksabha-session?mpCode=5701",
+    "finalUrl": "https://sansad.in/api_ls/member/members-loksabha-session?mpCode=5701",
+    "status": 200,
+    "retrievedAt": "2026-09-19T18:50:41.992Z",
+    "hash": "14013bb569d441e193893e6318579fe061aab72a5af59aca9a8c04377bd8a1af",
+    "contentType": "application/json",
+    "fixture": "sessions.json",
+    "sha256": "14013bb569d441e193893e6318579fe061aab72a5af59aca9a8c04377bd8a1af"
+  },
+  "mplads-summary": {
+    "url": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesData",
+    "method": "POST",
+    "requestBody": "{\"uname\":\"21,270,3042793,2,7\"}",
+    "status": 200,
+    "retrievedAt": "2026-09-19T18:52:41.289Z",
+    "hash": "2ca4d1c99cbaf6ebd292f0b4db33af8fdf87a9f12d704a59a0972c1ffd7215f1",
+    "fixture": "mplads-summary.json",
+    "sha256": "2ca4d1c99cbaf6ebd292f0b4db33af8fdf87a9f12d704a59a0972c1ffd7215f1"
+  },
+  "mplads-recommended": {
+    "url": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+    "method": "POST",
+    "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Recommended\"}",
+    "status": 200,
+    "retrievedAt": "2026-09-19T18:53:00.437Z",
+    "hash": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125",
+    "fixture": "mplads-recommended.json",
+    "sha256": "15e6f6a7be34ce72e9011aede12c44b3ab604fb24c3b26ae3d23082abc4ad125"
+  },
+  "mplads-sanctioned": {
+    "url": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+    "method": "POST",
+    "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Works Sanctioned\"}",
+    "status": 200,
+    "retrievedAt": "2026-09-19T18:52:59.874Z",
+    "hash": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5",
+    "fixture": "mplads-sanctioned.json",
+    "sha256": "ec5b076cd01abb8414383907739cfa4ec7d829985dff6b5048a28ff1059e4ed5"
+  },
+  "mplads-expenditure": {
+    "url": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getTilesReportData",
+    "method": "POST",
+    "requestBody": "{\"combo\":\"21,270,3042793,2,7\",\"key\":\"Expenditure on Completed and On-going Works as on Date\"}",
+    "status": 200,
+    "retrievedAt": "2026-09-19T18:53:15.922Z",
+    "hash": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73",
+    "fixture": "mplads-expenditure.json",
+    "sha256": "60efd41c9201b63ac77cdcf42b5d08b4bc8c3b5e7a9c2c1a2b1842f891b17b73"
+  }
+}

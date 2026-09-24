@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "https://mplads.mospi.gov.in/rest/PreLoginDashboardData/getStateData",
+  "sourceIdentifier": "3042793",
+  "method": "POST",
+  "requestBody": "{}",
+  "retrievedAt": "2026-09-19T19:02:25.773Z",
+  "parserVersion": "mplads-1.0.0",
+  "contentHash": "8f367819bb2cc9b7c6f057a63db809e14f8632b9572e02becd9054413f0cf9c8",
+  "storedAt": "data\\raw\\mplads\\identity-getStateData.8f367819bb2c.d1bb6c63-9c27-4164-98a7-645141d67259.raw",
+  "status": 200,
+  "contentType": "text/plain;charset=ISO-8859-1"
+}

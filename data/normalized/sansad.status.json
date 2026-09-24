@@ -1,0 +1,10 @@
+{
+  "status": "partial",
+  "attemptedAt": "2026-09-19T19:06:09.646Z",
+  "lastSuccessAt": "2026-09-19T19:06:09.646Z",
+  "message": "Official records saved; coverage and date conflicts are disclosed.",
+  "warnings": [
+    "Session 7: Session dates do not reconcile: 2 calendar dates without entries; 3 attendance dates outside the calendar. Percentage withheld.",
+    "Questions include session 8; attendance calendar does not. No lifetime attendance calculated."
+  ]
+}

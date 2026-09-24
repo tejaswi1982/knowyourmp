@@ -1,0 +1,11 @@
+{
+  "sourceUrl": "https://sansad.in/api_ls/question/qetAllQuestionsForMember?lkNo=18&mpNo=5701&pageNo=1&pageSize=10&locale=en",
+  "sourceIdentifier": "5701",
+  "method": "GET",
+  "retrievedAt": "2026-09-19T19:01:36.814Z",
+  "parserVersion": "sansad-1.0.0",
+  "contentHash": "a842fdada6ffe7dbc111885fdd467d5bc16a5a459f16dbf48ec4d90145365c4b",
+  "storedAt": "data\\raw\\sansad\\questions-5701-1.a842fdada6ff.e386b80d-8c3a-4778-aebd-7ccd8a7e95f3.raw",
+  "status": 200,
+  "contentType": "application/json"
+}

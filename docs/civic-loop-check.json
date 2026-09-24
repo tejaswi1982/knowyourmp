@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "checkedAt": "2026-09-24T06:22:54.363Z",
+  "isolatedFixture": true,
+  "journey": "PIN → MP → money → works → verify/photo → pending → moderation → published → source; supporting-source submission and publication",
+  "checks": [
+    {
+      "width": 320,
+      "route": "/works",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/works/244718",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/works/244718/verify",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/works/244718/documents",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/admin/contributions",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/works",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/works/244718",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/works/244718/verify",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/works/244718/documents",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/admin/contributions",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/works",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/works/244718",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/works/244718/verify",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/works/244718/documents",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/admin/contributions",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/works",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/works/244718",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/works/244718/verify",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/works/244718/documents",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/admin/contributions",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/works",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/works/244718",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/works/244718/verify",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/works/244718/documents",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/admin/contributions",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/works",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/works/244718",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/works/244718/verify",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/works/244718/documents",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/admin/contributions",
+      "overflow": false
+    }
+  ]
+}
