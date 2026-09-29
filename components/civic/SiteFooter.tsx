@@ -84,7 +84,7 @@ export async function SiteFooter() {
         </p>
         <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-chalk/20 pt-5 text-sm text-chalk/60">
           <span>Project by Abhinandan Tejaswi</span>
-          <a className="min-h-[44px] inline-flex items-center hover:text-acid" href="https://abhinandantejaswi.com" target="_blank" rel="noopener noreferrer">Website ↗</a>
+          <a className="min-h-[44px] inline-flex items-center hover:text-acid" href="https://www.abhinandantejaswi.com" target="_blank" rel="noopener noreferrer">Website ↗</a>
           <a className="min-h-[44px] inline-flex items-center hover:text-acid" href="https://www.linkedin.com/in/abhinandantejaswi/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
         </div>
       </div>
