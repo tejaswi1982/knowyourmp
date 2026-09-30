@@ -326,7 +326,9 @@ body:has(.entry-page) > header, body:has(.entry-page) > footer { display: none; 
 .entry-photo { object-fit: cover; object-position: 50% 100%; filter: grayscale(1); }
 .entry-wash { background: linear-gradient(180deg, #10120fe6 0%, #10120fbb 5rem, #10120f00 30%, #10120f30 48%, #10120fe6 100%); }
 .entry-content { min-height: 100svh; display: flex; flex-direction: column; padding: clamp(1.25rem, 3vw, 3rem) clamp(1.5rem, 6vw, 6rem) 1.25rem; }
+.entry-masthead { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .entry-brand { align-self: flex-start; font-size: .9rem; font-weight: 550; letter-spacing: -.04em; padding-block: .75rem; min-height: 44px; }
+.entry-home-link { display: inline-flex; min-height: 44px; align-items: center; padding: .65rem 0; font-size: .75rem; color: #f5f2eacc; text-decoration: underline; text-underline-offset: 4px; }
 .entry-invitation { margin-top: auto; padding-top: 12rem; width: min(100%, 46rem); }
 .entry-invitation h1 { font-size: clamp(2rem, 4.1vw, 4.6rem); font-weight: 400; line-height: 1.14; letter-spacing: -.045em; text-wrap: balance; }
 .entry-form { margin-top: 1.6rem; }
@@ -382,7 +384,9 @@ body:has(.entry-page) > header, body:has(.entry-page) > footer { display: none; 
 body:has(.scroll-story) { background: #f5f2ea; }
 body:has(.scroll-story) > header, body:has(.scroll-story) > footer { display: none; }
 .scroll-story { --paper: #f5f2ea; --text: #171814; --accent: #2436e8; color: var(--text); background: var(--paper); font-family: var(--font-sans), sans-serif; }
+.story-masthead { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-right: clamp(1.5rem, 7vw, 8rem); }
 .quiet-brand { display: inline-block; margin: 1.25rem 0 0 clamp(2.75rem, 7vw, 8rem); min-height: 44px; padding-block: .75rem; font-size: .8rem; font-weight: 600; letter-spacing: -.04em; }
+.quiet-home-link { display: inline-flex; min-height: 44px; align-items: center; margin-top: 1.25rem; padding-block: .65rem; font-size: .75rem; color: #57584f; text-decoration: underline; text-underline-offset: 4px; }
 .moment { min-height: 95svh; padding: clamp(4rem, 10vh, 8rem) clamp(1.5rem, 7vw, 8rem) clamp(4rem, 10vh, 8rem) clamp(2.75rem, 7vw, 8rem); display: flex; flex-direction: column; justify-content: center; position: relative; }
 .moment-core { width: 100%; max-width: 1360px; margin-inline: auto; min-width: 0; }
 .moment-place { min-height: calc(100svh - 5rem); padding-top: 2rem; }

@@ -39,6 +39,12 @@ export function SiteHeader() {
           >
             Methodology
           </Link>
+          <a
+            href="https://www.abhinandantejaswi.com/"
+            className="tag inline-flex min-h-[44px] items-center px-1 text-ink/65 transition-colors hover:text-cobalt"
+          >
+            Home ↗
+          </a>
         </nav>
       </div>
     </header>

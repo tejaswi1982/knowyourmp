@@ -46,7 +46,10 @@ export default async function RepresentativePage({ params, searchParams }: PageP
   const moneySources=(value: {sourceRefs:string[]} | undefined)=>value?.sourceRefs??[];
   const family=(id:string,fallback:string):SourceReference|undefined=>sources.find(s=>s.id===id)??sources.find(s=>s.id===fallback);
   return <div className="scroll-story">
-    <Link href="/" className="quiet-brand" aria-label="KnowYourMP home">KnowYourMP</Link>
+    <div className="story-masthead">
+      <Link href="/" className="quiet-brand" aria-label="KnowYourMP home">KnowYourMP</Link>
+      <a className="quiet-home-link" href="https://www.abhinandantejaswi.com/">Home ↗</a>
+    </div>
     <PlaceMarker pin={activePin} code={seat.code}/>
 
     <section className="moment moment-place" id="place" aria-labelledby="place-title">

@@ -19,7 +19,10 @@ export default function HomePage() {
       fetchPriority="high" loading="eager" decoding="async"/>
     <div className="entry-wash" aria-hidden="true"/>
     <div className="entry-content">
-      <Link href="/" className="entry-brand" aria-label="KnowYourMP home">KnowYourMP</Link>
+      <div className="entry-masthead">
+        <Link href="/" className="entry-brand" aria-label="KnowYourMP home">KnowYourMP</Link>
+        <a className="entry-home-link" href="https://www.abhinandantejaswi.com/">Home ↗</a>
+      </div>
       <div id="find" className="entry-invitation">
         <h1><label htmlFor="lookup">Enter your PIN code</label></h1>
         <PinLookup/>
